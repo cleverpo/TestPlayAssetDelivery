@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:ns1="http://schemas.android.com/tools">
+    <bool name="enable_system_alarm_service_default">true</bool>
+    <bool name="enable_system_foreground_service_default">true</bool>
+    <bool name="enable_system_job_service_default">false</bool>
+    <bool name="workmanager_test_configuration">false</bool>
+
+    <style name="com_facebook_activity_theme" parent="@style/Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme" parent="android:Theme.Holo.Light"></style>
+
+    <style name="com.applovin.creative.CreativeDebuggerActivity.Theme" parent="android:Theme.Holo.Light">
+    </style>
+
+
+    <attr format="color|reference" name="debug_panel_back_primary"/>
+    <attr format="color|reference" name="debug_panel_back_secondary"/>
+    <attr format="color|reference" name="debug_panel_color_green"/>
+    <attr format="color|reference" name="debug_panel_color_orange"/>
+    <attr format="color|reference" name="debug_panel_color_red"/>
+    <attr format="color|reference" name="debug_panel_label_primary"/>
+    <attr format="color|reference" name="debug_panel_label_secondary"/>
+    <attr format="color|reference" name="debug_panel_support_separator"/>
+    <color name="debug_panel_black">#FF000000</color>
+    <color name="debug_panel_dark_gray">#80000000</color>
+    <color name="debug_panel_gray">#1A000000</color>
+    <color name="debug_panel_green">#01613F</color>
+    <color name="debug_panel_light_gray">#08000000</color>
+    <color name="debug_panel_orange">#DC833B</color>
+    <color name="debug_panel_red">#B3261E</color>
+    <color name="debug_panel_white">#FFFFFF</color>
+    <dimen name="debug_panel_corner_radius_large">12dp</dimen>
+    <dimen name="debug_panel_corner_radius_medium">8dp</dimen>
+    <dimen name="debug_panel_corner_radius_small">6dp</dimen>
+    <dimen name="debug_panel_line_spacing_body1">2sp</dimen>
+    <dimen name="debug_panel_line_spacing_body2">1sp</dimen>
+    <dimen name="debug_panel_line_spacing_header1">3sp</dimen>
+    <dimen name="debug_panel_line_spacing_header2">3sp</dimen>
+    <dimen name="debug_panel_space_large">64dp</dimen>
+    <dimen name="debug_panel_space_medium">12dp</dimen>
+    <dimen name="debug_panel_space_medium_large">16dp</dimen>
+    <dimen name="debug_panel_space_medium_large_negative">-16dp</dimen>
+    <dimen name="debug_panel_space_small">6dp</dimen>
+    <dimen name="debug_panel_space_small_extra">4dp</dimen>
+    <dimen name="debug_panel_space_small_negative">-6dp</dimen>
+    <dimen name="debug_panel_text_body1">14sp</dimen>
+    <dimen name="debug_panel_text_body2">12sp</dimen>
+    <dimen name="debug_panel_text_header1">20sp</dimen>
+    <dimen name="debug_panel_text_header2">16sp</dimen>
+
+    <style name="MonetizationAdsInternal"/>
+    <style name="MonetizationAdsInternal.AdActivity" parent="android:Theme.Translucent.NoTitleBar">
+        <item name="android:forceDarkAllowed" ns1:targetApi="q">false</item>
+    </style>
+    <style name="Base.Theme.DebugPanel" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+
+        <item name="debug_panel_support_separator">@color/debug_panel_gray</item>
+        <item name="debug_panel_label_primary">@color/debug_panel_black</item>
+        <item name="debug_panel_label_secondary">@color/debug_panel_dark_gray</item>
+        <item name="debug_panel_color_red">@color/debug_panel_red</item>
+        <item name="debug_panel_color_green">@color/debug_panel_green</item>
+        <item name="debug_panel_color_orange">@color/debug_panel_orange</item>
+        <item name="debug_panel_back_primary">@color/debug_panel_white</item>
+        <item name="debug_panel_back_secondary">@color/debug_panel_light_gray</item>
+    </style>
+    <style name="DebugPanelText" parent="@android:style/TextAppearance">
+    </style>
+    <style name="DebugPanelText.Body1">
+        <item name="android:textSize">@dimen/debug_panel_text_body1</item>
+        <item name="android:paddingVertical">@dimen/debug_panel_line_spacing_body1</item>
+    </style>
+    <style name="DebugPanelText.Body2">
+        <item name="android:textSize">@dimen/debug_panel_text_body2</item>
+        <item name="android:paddingVertical">@dimen/debug_panel_line_spacing_body2</item>
+        <item name="android:textColor">?attr/debug_panel_label_secondary</item>
+    </style>
+    <style name="DebugPanelText.Header1"></style>
+    <style name="DebugPanelText.Header2"></style>
+    <style name="DebugPanelTheme" parent="Base.Theme.DebugPanel">
+        <item name="android:colorBackground">?attr/debug_panel_back_primary</item>
+        <item name="android:statusBarColor">?attr/debug_panel_back_primary</item>
+        <item name="android:textViewStyle">@style/DebugPanelText.Body1</item>
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="feature_admob">admob</string>
+
+    <string name="feature_title_admob">Admob</string>
+    <string name="feature_title_lovin">Lovin</string>
+    <string name="feature_title_facebook">Facebook</string>
+    <string name="feature_title_google_auth">Google Auth</string>
+    <string name="feature_title_yandex">Yandex</string>
+</resources>

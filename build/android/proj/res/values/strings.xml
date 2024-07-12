@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">TestPlayAssetDelivery</string>
+
+    <string name="facebook_app_id">1234</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+    <string name="btn_text_admob_init">Admob Init</string>
+    <string name="btn_text_admob_load">Admob Load</string>
+    <string name="btn_text_admob_show">Admob Show</string>
+    <string name="btn_text_applovin">Applovin</string>
+    <string name="btn_text_facebook">Facebook</string>
+</resources>

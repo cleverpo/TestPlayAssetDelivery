@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="enable_system_alarm_service_default">false</bool>
+    <bool name="enable_system_job_service_default">true</bool>
+
+    <style name="com.applovin.mediation.MaxDebuggerActivity.Theme" parent="android:Theme.Material.Light"></style>
+    <style name="com.applovin.creative.CreativeDebuggerActivity.Theme" parent="android:Theme.Material.Light">
+    </style>
+</resources>

@@ -1,0 +1,29 @@
+plugins {
+    id 'java-gradle-plugin'
+    id "groovy"
+}
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(17))
+    }
+}
+
+repositories {
+    google()
+    jcenter()
+}
+
+dependencies {
+    implementation gradleApi()
+    implementation localGroovy()
+    implementation "com.android.tools.build:gradle-api:8.5.0"
+}
+gradlePlugin {
+    plugins {
+        create("customPlugin") {
+            id = "com.quik.testpad.CustomPlugin"
+            implementationClass = "CustomPlugin"
+        }
+    }
+}

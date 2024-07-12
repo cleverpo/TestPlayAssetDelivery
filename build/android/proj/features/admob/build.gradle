@@ -1,0 +1,26 @@
+plugins {
+    id 'com.android.dynamic-feature'
+}
+android {
+    namespace 'com.quik.testpad.admob'
+    compileSdk PROP_COMPILE_SDK_VERSION.toInteger()
+
+    defaultConfig {
+        minSdk PROP_MIN_SDK_VERSION.toInteger()
+    }
+
+    buildTypes {
+        release {
+            proguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation project(":TestPlayAssetDelivery")
+
+//    implementation 'androidx.appcompat:appcompat:1.2.0'
+//    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'com.google.android.gms:play-services-ads:22.3.0'
+    implementation 'com.google.android.ump:user-messaging-platform:2.2.0'
+}
