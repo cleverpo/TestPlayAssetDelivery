@@ -1,6 +1,6 @@
 plugins {
     id 'java-gradle-plugin'
-    id "groovy"
+    id "org.gradle.kotlin.kotlin-dsl" version "4.3.0"
 }
 
 java {
@@ -16,7 +16,6 @@ repositories {
 
 dependencies {
     implementation gradleApi()
-    implementation localGroovy()
     implementation "com.android.tools.build:gradle-api:8.5.0"
 }
 gradlePlugin {
