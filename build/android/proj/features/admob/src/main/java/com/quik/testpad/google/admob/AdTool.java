@@ -1,4 +1,4 @@
-package com.quik.testpad.admob;
+package com.quik.testpad.google.admob;
 
 import android.app.Activity;
 import android.util.Log;

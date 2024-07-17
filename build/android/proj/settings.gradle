@@ -11,8 +11,10 @@ project(':app').name = "TestPlayAssetDelivery"
 rootProject.name = "TestPlayAssetDelivery"
 
 
-include ':features:admob'
+//include ':features:admob'
 //include ':features:applovin'
 //include ':features:facebook'
 //include ':features:google_auth'
 //include ':features:yandex'
+//include ':features:google'
+include ':features:test1'

@@ -2,11 +2,10 @@ plugins {
     id 'com.android.dynamic-feature'
 }
 android {
-    namespace 'com.quik.testpad.facebook'
+    namespace 'com.quik.testpad.test1'
     compileSdk PROP_COMPILE_SDK_VERSION.toInteger()
 
     defaultConfig {
-        applicationId APPLICATION_ID
         minSdk PROP_MIN_SDK_VERSION.toInteger()
     }
 
@@ -19,5 +18,4 @@ android {
 
 dependencies {
     implementation project(":TestPlayAssetDelivery")
-    api 'com.facebook.android:facebook-login:latest.release'
 }

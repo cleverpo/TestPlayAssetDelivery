@@ -3,8 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:ignore="MissingTranslation">
 
-    <string name="feature_admob">admob</string>
-
     <string name="feature_title_admob">Admob</string>
     <string name="feature_title_lovin">Lovin</string>
     <string name="feature_title_facebook">Facebook</string>
