@@ -17,6 +17,9 @@ repositories {
 dependencies {
     implementation gradleApi()
     implementation "com.android.tools.build:gradle-api:8.5.0"
+
+    implementation "org.ow2.asm:asm-commons:9.6"
+    implementation "org.ow2.asm:asm-tree:9.6"
 }
 gradlePlugin {
     plugins {

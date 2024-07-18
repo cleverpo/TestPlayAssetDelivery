@@ -6,7 +6,6 @@ library/
 temp/
 local/
 profiles/
-native
 #//////////////////////////
 # NPM
 #//////////////////////////
@@ -22,6 +21,7 @@ node_modules/
 #//////////////////////////
 .idea/
 
+build/android/data/
 build/android/proj/build/
 build/android/proj/buildSrc/build/
 .gradle/

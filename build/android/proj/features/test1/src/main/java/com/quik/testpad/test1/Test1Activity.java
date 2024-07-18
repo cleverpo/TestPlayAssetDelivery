@@ -8,8 +8,6 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import com.google.android.play.core.splitcompat.SplitCompat;
-
 public class Test1Activity extends Activity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

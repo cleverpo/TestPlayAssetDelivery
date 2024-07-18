@@ -27,9 +27,9 @@ abstract class CustomPlugin: Plugin<Project> {
                 MyAsmClassVisitorFactory::class.java,
                 InstrumentationScope.ALL
             ){}
-            variant.instrumentation.setAsmFramesComputationMode(
-                FramesComputationMode.COMPUTE_FRAMES_FOR_INSTRUMENTED_METHODS
-            )
+//            variant.instrumentation.setAsmFramesComputationMode(
+//                FramesComputationMode.COMPUTE_FRAMES_FOR_INSTRUMENTED_METHODS
+//            )
         }
 
     }
