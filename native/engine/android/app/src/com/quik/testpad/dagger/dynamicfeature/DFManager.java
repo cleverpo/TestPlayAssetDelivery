@@ -102,9 +102,9 @@ public class DFManager {
         }
 
 //        this.loadAndLaunchModule(MODULE_NAME_ADMOB);
-//        this.loadAndLaunchModule(MODULE_NAME_FACEBOOK);
+        this.loadAndLaunchModule(MODULE_NAME_FACEBOOK);
 //        this.loadAndLaunchModule(MODULE_NAME_GOOGLEAUTH);
-        this.loadAndLaunchModule(MODULE_NAME_TEST1);
+//        this.loadAndLaunchModule(MODULE_NAME_TEST1);
     }
 
     public void onResume(){

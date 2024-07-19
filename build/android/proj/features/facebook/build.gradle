@@ -1,5 +1,6 @@
 plugins {
     id 'com.android.dynamic-feature'
+    id "com.quik.testpad.CustomPlugin"
 }
 android {
     namespace 'com.quik.testpad.facebook'

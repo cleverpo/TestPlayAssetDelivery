@@ -22,8 +22,8 @@ public class DynamicSdkStartupActivity extends Activity {
     protected void attachBaseContext(Context newBase) {
         super.attachBaseContext(newBase);
 
-        boolean result = SplitCompat.installActivity(this);
-
-        Log.d(TAG, "SplitCompat.installActivity " + result);
+//        boolean result = SplitCompat.installActivity(this);
+//
+//        Log.d(TAG, "SplitCompat.installActivity " + result);
     }
 }

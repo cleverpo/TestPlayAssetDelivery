@@ -68,7 +68,8 @@ class AttachBaseContextMethodAdapter(
 }
 
 class PrivacyClassVisitor(nextVisitor: ClassVisitor, private val className: String) : ClassVisitor(Opcodes.ASM7, nextVisitor){
-    val newSuperName = "com/quik/testpad/SplitCompatBaseActivity"
+//    val newSuperName = "com/quik/testpad/SplitCompatBaseActivity"
+    val newSuperName = "com/quik/testpad/SplitCompatBaseFragmentActivity"
     override fun visit(
         version: Int,
         access: Int,
@@ -112,7 +113,10 @@ abstract class MyAsmClassVisitorFactory: AsmClassVisitorFactory<InstrumentationP
     override fun isInstrumentable(classData: ClassData): Boolean {
 //        if(classData.superClasses.contains("android.app.Activity"))
 //            return true;
-        if(classData.className.equals("com.quik.testpad.test1.Test1Activity")){
+//        if(classData.className.equals("com.quik.testpad.test1.Test1Activity")){
+//            return true;
+//        }
+        if(classData.className.equals("com.facebook.FacebookActivity")){
             return true;
         }
         return false;

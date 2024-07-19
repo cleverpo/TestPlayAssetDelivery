@@ -79,10 +79,10 @@ android {
 //    dynamicFeatures = [':features:yandex']
 //    dynamicFeatures = [':features:admob']
 //    dynamicFeatures = [':features:applovin']
-//    dynamicFeatures = [':features:facebook']
+    dynamicFeatures = [':features:facebook']
 //    dynamicFeatures = [':features:google_auth']
 //    dynamicFeatures = [':features:google']
-    dynamicFeatures = [':features:test1']
+//    dynamicFeatures = [':features:test1']
 
 }
 
